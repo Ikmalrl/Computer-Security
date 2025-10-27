@@ -3,7 +3,7 @@
 **Assignment:** Cryptography Design and Application 
 
 **Members:** 
-* Muhammad Ikmal Iman Bin Mohd Najib
+* Muhammad Ikmal Iman 
 * Muhammad Haikal Zikry
 * Muhammad Danish Awra
 
