@@ -1,7 +1,9 @@
 # 🧠 Computer Security – September 2025 Assignment
 
+**Assignment:** Cryptography Design and Application 
+
 **Members:** 
-* Muhammad Ikmal Iman Bin Mohd Najib, 
+* Muhammad Ikmal Iman Bin Mohd Najib
 * Muhammad Haikal Zikry
 * Muhammad Danish Awra
 
@@ -13,7 +15,7 @@
 
 ## 📘 Overview
 
-This repository contains all the Python implementations and demonstrations for the **Computer Security 2025 Assignment**.
+This repository contains all the Python implementations and demonstrations for the **Cryptography Design and Application**.
 Each section demonstrates a different encryption concept using **custom-designed algorithms** developed in Python and tested using **Google Colab**.
 
 ---
