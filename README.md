@@ -15,8 +15,8 @@
 
 ## 📘 Overview
 
-This repository contains all the Python implementations and demonstrations for the **Cryptography Design and Application**.
-Each section demonstrates a different encryption concept using **custom-designed algorithms** developed in Python and tested using **Google Colab**.
+This repo includes all the Python codes and demonstration for the **Cryptography Design and Application**.
+Each part showcases a different encryption concept using **custom-built algorithms** written in Python and tested on **Google Colab**.
 
 ---
 
@@ -32,14 +32,13 @@ Each section demonstrates a different encryption concept using **custom-designed
 
 ## ⚙️ Environment Setup (Google Colab)
 
-All source codes were developed and tested using **Google Colab**, so no complex setup is required.
+All source codes were created and tested in **Google Colab**, without any complicated setup.
 
 ### 🧾 Requirements
 
-Before running the code, ensure you have:
+Before running the code, make sure you have:
 
 * A Google account (to access Colab)
-* Internet connection
 * `pycryptodome` library (for RSA encryption)
 
 ### 🔧 Install Required Library
@@ -59,8 +58,8 @@ Run this cell first in your Colab notebook:
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the `LunarBlaze.ipynb` file in Colab.
-2. Run all cells in sequence.
+1. Open or upload the `LunarBlaze.ipynb` file in Google Colab.
+2. Run all cells in sequence from top to bottom.
 3. Enter your plaintext when prompted.
 
 ### 💻 Example Output:
@@ -85,9 +84,9 @@ Success: Decryption matches with the plaintext.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the file `CyberStone.ipynb` in Colab.
-2. Run each cell from top to bottom.
-3. Input your message when prompted.
+1. Open or upload the `CyberStone.ipynb` file in Google Colab.
+2. Execute the cells sequentially from top to bottom
+3. When the program ask for input, enter your plaintext message
 
 ### 💻 Example Output:
 
@@ -104,16 +103,16 @@ Success: Decryption matches with the plaintext
 
 ---
 
-## 🔐 Running Hybrid Cryptography Demo (Secure Chat)
+## 🔐 Running Hybrid Cryptography Demo
 
 **File:** `Hybrid_cryptography.ipynb`
 **Concept:** Combines RSA (asymmetric) for key exchange with CyberStone (symmetric) for fast message encryption. Demonstrates hybrid cryptography for a secure chat application.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open `Hybrid_Demo_Secure_Chat.ipynb` in Colab.
-2. Run the notebook step-by-step.
-3. Enter a message when prompted — it will be encrypted by “Alice” and decrypted by “Bob”.
+1. Open or upload `Hybrid_Demo_Secure_Chat.ipynb` in Google Colab.
+2. Run the notebook step-by-step from top to bottom.
+3. When prompted, type a message. "Alice" will encrypt it and "Bob" will decrypt it.
 
 ### 💻 Example Output:
 
