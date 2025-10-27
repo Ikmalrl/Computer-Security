@@ -24,9 +24,9 @@ Each section demonstrates a different encryption concept using **custom-designed
 
 | Part    | Title                                        | Description                                                                                                   |
 | ------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **A.1** |  **MangoTango (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
-| **A.2** |  **WingsDings (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
-| **B**   |  **Hybrid Secure Chat (RSA + WingsDings)** | Demonstrates hybrid cryptography combining asymmetric and symmetric encryption in a secure messaging context. |
+| **A.1** |  **ciphername (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
+| **A.2** |  **ciphername (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
+| **B**   |  **hybrid name**                           | Demonstrates hybrid cryptography combining asymmetric and symmetric encryption in a secure messaging context. |
 
 ---
 
@@ -52,7 +52,7 @@ Run this cell first in your Colab notebook:
 
 ---
 
-## 🥭 Running MangoTango (Stream Cipher)
+## 🥭 Running ciphername (Stream Cipher)
 
 **File:** `Stream_Cipher.ipynb`
 **Concept:** Original stream cipher demonstrating keystream generation, encryption, and decryption.
@@ -151,16 +151,5 @@ By running these notebooks, you will:
 * Learn how **keystreams, subkeys, and Feistel rounds** operate.
 * Implement and visualize **hybrid cryptography** combining symmetric and asymmetric encryption.
 * Gain hands-on experience in **secure communication design**.
-
----
-
-## ⚠️ Security Disclaimer
-
-All algorithms (MangoTango, WingsDings) are **custom and educational**.
-They are **not secure for real-world use** and are implemented purely for learning cryptographic design principles.
-
----
-
-✅ **End of README**
 
 ---
