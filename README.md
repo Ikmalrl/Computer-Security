@@ -107,7 +107,7 @@ Success: Decryption matches with the plaintext
 ## 🔐 Running Hybrid Cryptography Demo (Secure Chat)
 
 **File:** `Hybrid_cryptography.ipynb`
-**Concept:** Combines RSA (asymmetric) for key exchange with WingsDings (symmetric) for fast message encryption. Demonstrates hybrid cryptography for a secure chat application.
+**Concept:** Combines RSA (asymmetric) for key exchange with CyberStone (symmetric) for fast message encryption. Demonstrates hybrid cryptography for a secure chat application.
 
 ### ▶️ Steps in Colab:
 
@@ -142,25 +142,13 @@ Success: Message decrypted correctly.
 .
 ├── LunarBlaze.ipynb                                         # Stream cipher 
 ├── CyberStone.ipynb                                          # Block cipher
-├── hybrid_cryptography.ipynb                               # Hybrid cryptography 
+├── Hybrid_Demo_Secure_Chat.ipynb                               # Hybrid cryptography 
 │
 ├── LunarBlaze.drawio.png                                       # Stream cipher design diagram
 ├── CyberStone.drawio.png                                        # Block cipher Feistel structure diagram
-├── Hybrid Cryptography Workflow Diagram.drawio.png  # Hybrid workflow diagram
+├── Hybrid Cryptography.drawio.png                              # Hybrid workflow diagram
 │
 └── README.md                                                   # Documentation and instructions
 
 ```
 
----
-
-## 🧠 Learning Outcomes
-
-By running these notebooks, you will:
-
-* Understand the **difference between stream and block ciphers**.
-* Learn how **keystreams, subkeys, and Feistel rounds** operate.
-* Implement and visualize **hybrid cryptography** combining symmetric and asymmetric encryption.
-* Gain hands-on experience in **secure communication design**.
-
----
