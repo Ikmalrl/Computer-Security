@@ -52,57 +52,61 @@ Run this cell first in your Colab notebook:
 
 ---
 
-## 🥭 Running ciphername (Stream Cipher)
+## 🥭 Running LunarBlaze (Stream Cipher)
 
-**File:** `Stream_Cipher.ipynb`
+**File:** `LunarBlaze.ipynb`
 **Concept:** Original stream cipher demonstrating keystream generation, encryption, and decryption.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the `Stream_Cipher.ipynb` file in Colab.
+1. Upload or open the `LunarBlaze.ipynb` file in Colab.
 2. Run all cells in sequence.
 3. Enter your plaintext when prompted.
 
 ### 💻 Example Output:
 
 ```
-===== MangoTango Stream Cipher Demo =====
-Enter plaintext to encrypt: Good morning
-[+] Encryption complete!
-Ciphertext (hex): 8a5e3a12bcd9f12f
-Decrypted text:   Good morning
-Success: Decryption matches original plaintext.
+===== LunarBlaze Stream Cipher =====
+Enter plaintext: computer security
+
+Status          : Encryption complete!
+Ciphertext (hex): 9c3a37508e0b7b3fd17c0a888799bddbb2
+Decrypted text  : computer security
+
+Success: Decryption matches with the plaintext.
 ```
 
 ---
 
 ## 🦅 Running WingsDings (Block Cipher)
 
-**File:** `Block_Cipher.ipynb`
+**File:** `CyberStone.ipynb`
 **Concept:** Feistel-based block cipher that uses SHA-256 to generate round keys and PKCS#7 padding for multi-block messages.
 
 ### ▶️ Steps in Colab:
 
-1. Upload or open the file `Block_Cipher.ipynb` in Colab.
+1. Upload or open the file `CyberStone.ipynb` in Colab.
 2. Run each cell from top to bottom.
 3. Input your message when prompted.
 
 ### 💻 Example Output:
 
 ```
-===== WingsDings Block Cipher Demo =====
-Enter plaintext to encrypt: Careful who is behind you..
-[+] Encryption complete!
-Ciphertext (hex): 94e84af08f37d2f1a81c7841
-Decrypted text:   Careful who is behind you..
-Success: Decryption matches original plaintext.
+===== CyberStone Block Cipher =====
+Enter plaintext: computer security
+
+Status          : Encryption complete!
+Ciphertext (hex): e632b890ddfb198283f70679847424c4d7d37c84b7bb3892
+Decrypted text  : computer security
+
+Success: Decryption matches with the plaintext
 ```
 
 ---
 
 ## 🔐 Running Hybrid Cryptography Demo (Secure Chat)
 
-**File:** `Hybrid_Demo_Secure_Chat.ipynb`
+**File:** `Hybrid_cryptography.ipynb`
 **Concept:** Combines RSA (asymmetric) for key exchange with WingsDings (symmetric) for fast message encryption. Demonstrates hybrid cryptography for a secure chat application.
 
 ### ▶️ Steps in Colab:
@@ -114,12 +118,19 @@ Success: Decryption matches original plaintext.
 ### 💻 Example Output:
 
 ```
-===== Hybrid Cryptography Demo – Secure Chat =====
+===== Hybrid Cryptography Demo =====
 [1] Generating RSA key pair for Bob...
-[2] Alice enters message to send securely: There is someone in your house
-[+] Message encrypted successfully.
+[2] Alice enters message to send securely: Hi Bob!
+
+Encryption complete!
+Encrypted session key length: 256 bytes
+Encrypted message (hex): e2c84ce0e5e76f59
+
 [3] Bob decrypts the incoming message...
-Decrypted message: There is someone in your house
+
+Decryption complete!
+Decrypted message: Hi Bob!
+
 Success: Message decrypted correctly.
 ```
 
@@ -129,13 +140,13 @@ Success: Message decrypted correctly.
 
 ```
 .
-├── Stream_Cipher.ipynb                                         # MangoTango stream cipher 
-├── Block_Cipher.ipynb                                          # WingsDings block cipher
-├── Hybrid_Demo_Secure_Chat.ipynb                               # Hybrid cryptography demo 
+├── LunarBlaze.ipynb                                         # Stream cipher 
+├── CyberStone.ipynb                                          # Block cipher
+├── hybrid_cryptography.ipynb                               # Hybrid cryptography 
 │
-├── MangoTango.drawio.png                                       # Stream cipher design diagram
-├── WingsDing.drawio.png                                        # Block cipher Feistel structure diagram
-├── Hybrid Cryptography Workflow Diagram_Secure Chat.drawio.png  # Hybrid workflow diagram
+├── LunarBlaze.drawio.png                                       # Stream cipher design diagram
+├── CyberStone.drawio.png                                        # Block cipher Feistel structure diagram
+├── Hybrid Cryptography Workflow Diagram.drawio.png  # Hybrid workflow diagram
 │
 └── README.md                                                   # Documentation and instructions
 
