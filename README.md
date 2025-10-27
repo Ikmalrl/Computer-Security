@@ -24,8 +24,8 @@ Each section demonstrates a different encryption concept using **custom-designed
 
 | Part    | Title                                        | Description                                                                                                   |
 | ------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **A.1** |  **ciphername (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
-| **A.2** |  **ciphername (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
+| **A.1** |  **LunarBlaze (Stream Cipher)**            | Custom stream cipher using dual LFSRs and nonlinear keystream generation.                                     |
+| **A.2** |  **CyberStone (Block Cipher)**             | 64-bit Feistel-based block cipher using SHA-256-derived subkeys.                                              |
 | **B**   |  **hybrid cryptography**                   | Demonstrates hybrid cryptography combining asymmetric and symmetric encryption in a secure messaging context. |
 
 ---
