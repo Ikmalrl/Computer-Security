@@ -1,8 +1,10 @@
 # 🧠 Computer Security – September 2025 Assignment
 
-**Members:** 1. Muhammad Ikmal Iman Bin Mohd Najib, 
-             2. Muhammad Haikal Zikry
-             3. Muhammad Danish Awra
+**Members:** 
+* Muhammad Ikmal Iman Bin Mohd Najib, 
+* Muhammad Haikal Zikry
+* Muhammad Danish Awra
+
 **Course:** Computer Security
 
 **Date:** 26th October 2025
